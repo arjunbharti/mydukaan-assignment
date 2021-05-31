@@ -1,0 +1,121 @@
+*{
+    font-family: Galano Grotesque;
+}
+
+
+.footer {
+    /* position: absolute; */
+    /* top: 2872px; */
+    background-color: black;
+    /* width: 1440px;
+    height: 283px; */
+    padding: 5rem 17rem 0rem 17rem;
+    /* margin: 0 auto; */
+    display: flex;
+    /* justify-content: space-between; */
+    flex-direction: column;
+}
+
+.copyright{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid grey;
+    padding-top: 16px;
+    margin-top: 16px;
+    width: 75vw;
+
+}
+
+.navItems {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 75vw;
+
+}
+
+
+.footerlogo {
+
+    background-color: black;
+    align-self: flex-start;
+
+}
+
+.footeritems {
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 102px;
+    /* position: absolute;
+    top: 64px;
+    left: 448px; */
+    background-color: black;
+
+}
+
+.footerlistitems {
+    /* position: absolute; */
+    list-style-type: none;
+    color: #FFFFFF;
+    background-color: black;
+}
+
+.itemlist {
+    background-color: black;
+    color: white;
+}
+
+.footeritemsx{
+    list-style-type: none;
+    color: #FFFFFF;
+    background-color: black;
+}
+
+.ul{
+    background-color: black;
+}
+
+.footeritemss{
+    background-color: black;
+    color: white;
+    list-style-type: none;
+    padding-bottom: 16px;
+    font-size: 18px;
+}
+
+.line2{
+
+    background-color: #FFFFFF;
+    opacity: 0.2;
+
+}
+
+
+.trademark{
+    color: #FFFFFF;
+    background-color: black;
+    font-weight: normal;
+font-size: 14px;
+line-height: 20px;
+}
+
+.made{
+    color: #FFFFFF;
+    background-color: black;
+    font-size: 14px;
+    margin-right: 4px;
+}
+
+.flag{
+
+    background-color: rgb(141, 138, 138);
+
+    border-radius: 3px;
+}
+
+.madein{
+    display: flex;
+    
+}

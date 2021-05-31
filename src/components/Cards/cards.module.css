@@ -1,0 +1,60 @@
+
+.products {
+    font-family: Galano Grotesque medium;
+    
+    font-weight: 600;
+    font-size: 36px;
+    letter-spacing: -0.04em;
+    color: #1A181E;
+    padding: 5rem 27rem 3rem 28rem;
+}
+
+
+
+.card{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+
+
+}
+
+.carditems{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:5rem;
+    padding: 1rem 14rem;
+         width: 1440px; 
+          margin:  0 auto;
+
+}
+
+.carditemlist{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.titlename{
+    margin-top: 16px;
+    font-style: normal;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    color: #1A181E;
+    font-family: Galano Grotesque medium;
+}
+
+.desc{
+    top: 48px;
+    width: 352px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #4D4D4D;
+    font-style: normal;
+    font-family: Galano Grotesque;
+}

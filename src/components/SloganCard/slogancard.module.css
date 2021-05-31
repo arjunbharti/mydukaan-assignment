@@ -1,0 +1,96 @@
+*{
+    font-family: Galano Grotesque;
+}
+
+.lines{
+    margin: 2rem 0;
+    background-color: #d9d9d9;
+    opacity: 0.5;
+}
+
+.carditem{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 3rem 10rem;
+}
+
+.title{
+    font-family: Galano Grotesque bold;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: -0.04em;
+    padding-top: 2rem;
+    background-color: white;
+    color: #1A181E;
+
+}
+
+.titledes{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    padding-top: 16px;
+    max-width: 736px;
+    color: #4D4D4D;
+    background-color: #ffffff;
+
+}
+
+.word{
+    font-family: Galano Grotesque medium;
+    margin:  3rem 0 0.5rem 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    background-color: white;
+    color: #4D4D4D;
+    
+
+}
+
+.btnslogan {
+    width: max-content;
+    /* margin: 0 auto; */
+    margin: 4rem 0 2rem 0;
+    padding: 1.5rem 5rem;
+    color: white;
+    font-size: 16px;
+    background-color: #146EB4;
+    border-radius: 4px;
+    font-family: Galano Grotesque medium;
+}
+
+.btnslogantext {
+    position: static;
+    left: 11.76%;
+    right: 11.76%;
+    top: 24%;
+    bottom: 24%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    color: #FFFFFF;
+    background-color: #146EB4;
+}
+
+.inputf {
+    display: flex;
+    padding: 1rem 1rem;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    max-width: 30rem;
+    background: url("../Union.png") no-repeat 325.15px 18.15px;
+}
+
+#cozy::placeholder {
+    /* position: absolute; */
+    /* display: flex; */
+    font-size: 16px;
+  
+}

@@ -1,0 +1,36 @@
+.pagination{
+    /* position: absolute; */
+    display: flex;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+    /* top: 1344px;
+    left: 485px; */
+    text-align: center;
+    /* margin: 0 auto; */
+}
+
+.pagesNo {
+display: flex;
+align-items: center;
+
+}
+
+.pagetext{
+    padding-right: 24px;
+    background-color: white;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #146EB4;
+}
+
+.next{
+    position: absolute;
+    left: 381px;
+    background-color: white;
+    /* right: 206px; */
+    /* top: 1343px; */
+    width: 47px;
+    height: 20px;
+}
